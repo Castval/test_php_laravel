@@ -1,9 +1,11 @@
 ## Avvio
 
+```
 docker compose up -d --build
 docker compose exec phpmyadmin chmod 777 /sessions
+```
 
-Entrare nel container docker (prima volta):
+Entrare nel container docker (da effettuare solo la prima volta):
 
 ```
 docker compose exec php bash
