@@ -49,7 +49,7 @@ export default {
     },
     methods: {
         login() {
-            axios.post("http://127.0.0.1:8000/api/login", { email: this.email, password: this.password })
+            axios.post("http://127.0.0.1/api/login", { email: this.email, password: this.password })
                 .then(
                     ({ data }) => {
                         try {

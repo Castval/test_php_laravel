@@ -29,7 +29,7 @@ export default {
     },
     methods: {
         getBrewery() {
-            axios.get("http://127.0.0.1:8000/api/breweries/list")
+            axios.get("http://127.0.0.1/api/breweries/list")
                 .then(
                     ({ data }) => {
                         try {
